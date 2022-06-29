@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@media  (max-widht: 768px){
+body{
+	background-color: white;
+	font-family: 'Staatliches', cursive;
+  	}
+}
+
+.imgmenu{
+	width: 30%;
+	margin-left: 34%;
+}
+
+.nav-item{
+	boder-style: solid;
+	background-color: orange;
+		.nav-link{
+			color: white;
+		}
+}
+
+@media (max-widht: 768px){
+	.resenas{
+		display: flex;
+		justify-content: space-evenly;
+		margin-left: 0%;
+		padding: 2%;
+		width: 100%;
+		}
+	}
+
+.carrusel{
+	position: left;
+	margin-left: 0%;
+	width: 45rem;
+
+}
+
+.verresena{
+	margin-right: 5%
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	padding: 10%;
+		.ranking{
+			width: 50%;
+			border-style: double;
+		}
+
+		.descripcion{
+			margin: 10%
+		}
+		.items{ 
+			color: orange !important; 
+			font-size: 40px;
+		}
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	padding: 5%;
+		.imgfooter{
+			width: 219px;
+		}
+		.redes{
+			.h1{
+				font-size: 20px;
+			}
+			.imgredes{
+				width: 50px;
+			}
+		}
+}
+
+.card{
+	width: 430px;
+	margin: 15%;
+	padding: 0%;
+}
+
+.sugerencia{
+	display: flex;
+	align-content: space-between;
+	margin: 9%;
+}
+.imggif{
+	align-content: center;
+	margin-left: 250px;
+}
+.list-group{
+	padding:10%;
+}
+
+.recetas{
+	padding: 5%;
+	margin-left: -10%;
+}
+.derechos{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40%;
+}
+
