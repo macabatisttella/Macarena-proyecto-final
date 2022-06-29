@@ -32,7 +32,7 @@ body{
 		padding: 2%;
 		width: 100%;
 		}
-		
+
 @media (max-widht: 7678px){
 	.resenas{
 		display: flex;
@@ -48,6 +48,11 @@ body{
 	margin-left: 0%;
 	width: 45rem;
 
+}
+@media (max-widht: 768px){
+	position: left;
+	margin-left: 0%;
+	width: 45rem;
 }
 
 .verresena{

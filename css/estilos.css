@@ -49,6 +49,12 @@ body {
   width: 45rem;
 }
 
+@media (max-widht: 768px) {
+  position: left;
+  margin-left: 0%;
+  width: 45rem;
+}
+
 .verresena {
   margin-right: 5%;
 }
