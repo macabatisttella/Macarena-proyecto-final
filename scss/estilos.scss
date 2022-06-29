@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+body{
+	background-color: white;
+	font-family: 'Staatliches', cursive;
+  	}
+
 @media  (max-widht: 768px){
 body{
 	background-color: white;
@@ -20,7 +25,15 @@ body{
 		}
 }
 
-@media (max-widht: 768px){
+.resenas{
+		display: flex;
+		justify-content: space-evenly;
+		margin-left: 0%;
+		padding: 2%;
+		width: 100%;
+		}
+		
+@media (max-widht: 7678px){
 	.resenas{
 		display: flex;
 		justify-content: space-evenly;
@@ -28,7 +41,7 @@ body{
 		padding: 2%;
 		width: 100%;
 		}
-	}
+}
 
 .carrusel{
 	position: left;
